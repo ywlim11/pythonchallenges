@@ -1,0 +1,9 @@
+name = input("What is your name?")
+language = int(input("Choose a language: 1. English, 2. Spanish or 3.Chinese?"))
+
+if language == 1:
+     print("Hello", name)
+if language == 2:
+    print("Hola", name)
+if language == 3:
+    print("你好", name)
