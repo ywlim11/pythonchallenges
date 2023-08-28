@@ -1,0 +1,15 @@
+import turtle
+stri=input("What would you like me to write?")
+length =len(stri)
+oneletter=4.5 #pixels
+total = length*oneletter
+
+if length>12:
+    total=total-20
+    
+if length>20:
+    total=total-25
+    
+turtle.write(stri)
+turtle.forward(total)
+turtle.shape("turtle")
