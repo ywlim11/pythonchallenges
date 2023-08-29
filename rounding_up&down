@@ -1,0 +1,9 @@
+# Ex 1
+x=3.33333
+x=round(x,3)
+print(x)
+
+# Ex 2
+x = float(input("Choose a decimal number"))
+x=round(x,1)
+print(x)
