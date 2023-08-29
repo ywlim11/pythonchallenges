@@ -1,0 +1,10 @@
+Name = input("Who's your favourite celebrity?")
+CelebAge = int(input("When were they born?"))
+MyAge = int(input("When were you born?"))
+AgeDifference = MyAge - CelebAge
+if AgeDifference > 0:
+    print(Name,"is",AgeDifference,"years older than you!")
+if AgeDifference < 0:
+    print(Name,"is",AgeDifference*-1,"years younger than you!")
+if AgeDifference == 0:
+    print(Name,"is the same age as you!")
