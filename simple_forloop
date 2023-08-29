@@ -1,0 +1,7 @@
+# Ex 2
+for i in range(0,102,2):
+    print(i)
+
+# Ex 3
+for i in range(1000,-10,-10):
+    print(i)
