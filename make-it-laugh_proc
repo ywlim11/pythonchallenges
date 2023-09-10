@@ -1,0 +1,13 @@
+string=input("Type a sentence")
+
+def make_it_laugh(string): 
+    vowels = "aeiouAEIOU"
+    result = ""
+    for letter in string:
+        if letter in vowels:
+            result = result + "haha"
+        else:
+            result = result + letter
+    print(result)
+    
+make_it_laugh(string)
