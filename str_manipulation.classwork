@@ -1,0 +1,45 @@
+def LEFT(string,length):   
+    return string[0:length]
+
+def RIGHT(string,length):
+    return string[-length:]
+
+
+def MID (string,start,end):
+    return string[start:end:1]
+    
+def LENGTH (string):
+    return len(string)
+
+def LCASE (string,start, end):
+    lowercase = string.lower()
+    return lowercase[start:end]
+    
+def UCASE(string,start,end):
+    uppercase = string.upper()
+    return uppercase[start:end]
+
+def TO_UPPER(string, start, end):
+    uppercase = string.upper()
+    return uppercase[start:end]
+ 
+def TO_LOWER(string, start, end):
+    lowercase = string.lower()
+    return lowercase[start:end]
+    
+ 
+def NUM_TO_STRING(num):
+    return str(num)
+
+def STRING_TO_NUM(num):
+    return int(num)
+
+def INT(num):
+    return int(num)
+
+def ASC(char):
+    return ord(char)
+
+# example function being called    
+my_string = ASC("A")
+print(my_string)
