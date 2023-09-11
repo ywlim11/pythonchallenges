@@ -1,0 +1,4 @@
+string = "abcdef"
+print(string[0:1])
+print(string[0:-2])
+print(string[0:-2:3])
