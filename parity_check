@@ -1,38 +1,7 @@
-# Exercise 1
-
 count = 0
 my_byte = str(input("Input your byte:"))
 for i in my_byte:
     if i =="1": count = count +1
 print(count)
 
-# if count%2 != 0: print("Odd number of 1s")
-
-# Exercise 2 - testing
-
-# 0110111 parity bit 0 
-# count = 0
-# my_byte = str("0110111")
-# for i in my_byte:
-#     if i =="0": count = count +1
-# print(count)
-
-# if count%2 != 0: print("Odd number of 0s")
-
-# 0001111 parity bit 1 
-# count = 0
-# my_byte = str("0001111")
-# for i in my_byte:
-#     if i =="1": count = count +1
-# print(count)
-
-# if count%2 != 0: print("Odd number of 1s")
-
-# 1111111 parity bit 0 
-# count = 0
-# my_byte = str("1111111")
-# for i in my_byte:
-#     if i =="0": count = count +1
-# print(count)
-
-# if count%2 != 0: print("Odd number of 0s")
+if count%2 != 0: print("Odd number of 1s")
