@@ -1,0 +1,6 @@
+char = input("Enter a character")
+numchar = len(char)
+if numchar == 1:
+    print("char")
+else:
+    print("not char")
