@@ -1,0 +1,6 @@
+from datetime import date
+
+date1 = date(2007, 8, 18)
+date2 = date(2008, 9, 26)
+delta = date2 - date1
+print(delta.days)
