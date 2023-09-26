@@ -1,0 +1,11 @@
+# Exercise 1
+MyList = ["Icecream", "Pizza", "Popcorn", "Chips", "Fries"]
+print(MyList[0:4])
+
+#Exercise 2
+x = 0
+List = []
+while x == 0:
+    GameChar = input("enter a game character name: ")
+    List.append(GameChar)
+    print(List)
