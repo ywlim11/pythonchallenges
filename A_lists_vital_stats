@@ -1,0 +1,15 @@
+#ex1
+MyList = [1,2,3,4,5,6]
+print(sum(MyList)) #sum of list
+print(min(MyList)) #minimum of list
+print(max(MyList)) #maximum of list
+print(len(MyList)) #length of list
+print(sum(MyList)/len(MyList)) #mean average of list
+
+#ex2
+NewList = [2,4,6,8]
+print("The total of the list:", sum(NewList))
+print("The minimum of the list:", min(NewList)) 
+print("The maximum of the list:", max(NewList))
+print("The length of the list:", len(NewList))
+print("The mean average of the list:", sum(NewList)/len(NewList))
