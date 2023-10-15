@@ -1,0 +1,17 @@
+num_to_calc = [1,2,3,4,3]
+multipliers = [5,4,3,2]
+num_to_check = num_to_calc[4]
+x=0
+
+#multiplies the 2 arrays
+for i in range(len(multipliers)):
+    num_multiplied = [num_to_calc[x]*multipliers[x]]
+    x+=1
+
+#add items in num_multiplied array
+add_int = sum(num_multiplied)
+
+#using Modulo 11
+mod11 = 11-(add_int%11)
+if mod11 == num_to_check:
+    print("Check passed")
