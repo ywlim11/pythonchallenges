@@ -1,0 +1,23 @@
+#import turtle
+# for i in range (8):
+#   turtle.forward(80)
+#   turtle.right(45)
+
+# for i in range(4):
+#   for i in range (4):
+#     turtle.forward(80)
+#     turtle.right(90)
+
+#   turtle.penup()
+#   turtle.forward(160)
+#   turtle.pendown()
+
+import turtle
+# Make 1 star then many
+for i in range(4):
+  for i in range(5):
+    turtle.forward(80)
+    turtle.right(144)
+  turtle.penup()
+  turtle.forward(160)
+  turtle.pendown()
