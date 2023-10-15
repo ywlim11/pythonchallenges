@@ -1,0 +1,14 @@
+#ex1
+import random
+mynumber = random.uniform(0.1, 9.9)
+print(mynumber)
+
+#ex2
+names = ["Aaleyah","Angelaa","Roma", "Jojo"]
+for i in range(len(names)):
+    choice = random.choice(names)
+    print(choice)
+    randomname = input("Would you like to keep this name? y/n")
+    if randomname == "n":
+        names.remove(choice)
+print("Here's your new list:",names)
