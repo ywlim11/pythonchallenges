@@ -1,0 +1,12 @@
+# linear search 
+array = [9,6,7,5,6,5,3,2]
+num = int(input("What number would you like me to find?"))
+length = len(array)
+for i in range(0, length):
+    if num == array[i]:
+        print("Found it!")
+        break
+    else:
+        if i == length - 1:
+            print("Your number is not in the sequence")
+            break
