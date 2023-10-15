@@ -1,0 +1,13 @@
+#Bubble sort 
+array = [5,4,3,2,6,7,1,9,8]
+length = len(array)
+swap = True
+while swap == True:
+  swap = False
+  for i in range(0, length-1):
+      if array[i] > array[i+1]:
+          temp = array[i]
+          array[i] = array[i+1]
+          array[i+1] = temp
+          swap = True
+print(array)
