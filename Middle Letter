@@ -1,0 +1,13 @@
+def mid(MyString):
+    length = len(MyString)
+    if length % 2 == 0:
+        return ""
+    else:
+        middle_index = length // 2 
+        return MyString[middle_index]
+       
+result1 = mid("abc")
+result2 = mid("aaaa")
+
+print(result1)
+print(result2)
