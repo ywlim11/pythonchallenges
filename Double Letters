@@ -1,0 +1,11 @@
+#Double Letters
+def double_letters(MyString):
+    for i in range(len(MyString)-1):
+        if MyString[i] == MyString[i+1]:
+            return True
+    return False
+
+result1 = double_letters("hey")
+result2 = double_letters("oops")
+
+print(result1, result2)
