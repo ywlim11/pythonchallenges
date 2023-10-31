@@ -1,0 +1,18 @@
+# Adding Dots
+
+def add_dots(MyString):
+    MyString = ".".join(MyString)
+    return MyString
+
+result1 = add_dots("test")
+print(result1)
+
+# Removing Dots
+
+def remove_dots(MyString):
+    MyString2 = MyString.replace(".","")
+    return MyString2
+
+
+result2 = remove_dots("test")
+print(result2)
