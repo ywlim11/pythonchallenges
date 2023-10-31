@@ -1,0 +1,11 @@
+# Counting Syllables
+
+def count(MyString):
+    hyphen_count = 0
+    for i in range(len(MyString)-1):
+        if MyString[i] == "-":
+            hyphen_count += 1
+    return hyphen_count + 1
+
+result = count("He-llo")
+print(result)
