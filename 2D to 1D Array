@@ -1,0 +1,10 @@
+# Flatten a list
+def flatten(My2DList):
+    My1DList = []
+    for sublist in My2DList:
+        My1DList.extend(sublist)
+    return My1DList
+
+
+result = flatten([[1, 2], [3, 4]])
+print(result)
