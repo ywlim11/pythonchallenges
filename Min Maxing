@@ -1,0 +1,7 @@
+# Min Maxing
+def largest_difference(NumList):
+   return max(NumList)-min(NumList)
+
+result = [1,2,3]
+largest_difference(result)
+print(result)
