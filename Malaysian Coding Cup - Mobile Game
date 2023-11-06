@@ -1,0 +1,28 @@
+# MCC MOBILE GAME
+
+enemy_power = "146 294 487 282 350 156 66 74 125 374 439 451 212 264 219 234 155 70 290 85 234 240 118 343 30 357 216 183 77 153 461 358 172 211 477 231 465 22 485 158 333 80 328 410 50 144 136 353 221 208"
+enemy_comma = enemy_power.split()
+enemy_array = [int(item) for item in enemy_comma]
+
+enemy_array = sorted(enemy_array)
+enemy_array = enemy_array[::-1]
+
+alice_power = 146
+power_reach = 12173
+count = 0
+i = 0
+
+
+while alice_power < power_reach and i < len(enemy_array):
+    if alice_power > enemy_array[i]:
+        alice_power += enemy_array[i]
+        enemy_array.pop(i)
+        count += 1
+        i = 0
+    else:
+        i += 1
+
+if count == 0 or alice_power < power_reach:
+    print("-1")
+else:
+    print(count)
