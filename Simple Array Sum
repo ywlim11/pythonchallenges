@@ -1,0 +1,9 @@
+# Simple Array Sum
+
+# def simpleArraySum(ar):
+#     total = 0
+#     i=0
+#     for i in range(len(ar)):
+#         total = total + ar[i]
+#         i+=1
+#     print(total)
